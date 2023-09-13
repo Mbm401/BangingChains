@@ -1,0 +1,33 @@
+.headerContainer {
+    display: flex;
+    color: darkslategrey;
+    background-color: aquamarine;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px 0;
+    justify-content: space-between;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    display: flex;
+    border: solid 1px black;
+    align-items: center;
+}
+
+.signup {
+    padding: 5px;
+}
+
+.order {
+    padding: 5px;
+}
+
+.body {
+    margin-top: 50px;
+}
