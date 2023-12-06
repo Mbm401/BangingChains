@@ -1,0 +1,14 @@
+PHP Forms
+
+    the php superglobals $_GET and $_POST are used to collect form-data.
+
+    GET vs POST 
+        both create an array that holds key/value pairs, where keys are the names of
+        the form controls and vaules are the input from the user
+        get is passed tot the current script via URL parameters
+        post is passed to the current script via the HTTP POST method. 
+        information sent from a form with the get method is visible to everyone.
+        information sent from the post method is invisile to others making it the 
+        prefered method used by devs 
+
+        

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo">
+    <link rel=" stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="BCstyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="site-name">
+            <a href="index.html">
+                <h1>BCD</h1>
+            </a>
+        </div>
+        <div class="site-nav">
+            <a href="login.html"><i class="material-icons nav">account_circle</i></a>
+            <!--<a href="search.html"><button class="nav">search</button></a>-->
+        </div>
+    </div>
+
+    <div class="search-form">
+        <h1>search</h1>
+        <form action="search.php">
+            <label for="store-search">search store</label>
+            <input type="text" name="store-search" id="" placeholder="search store...">
+            <br>
+            <h2>filter</h2>
+
+            <div>
+                <h3 class="serach-text">Disc Type</h3>
+                <!--all solo line? two per line? all one line?-->
+                <input type="checkbox" name="driver" id="">
+                <label for="driver">Driver</label>
+
+                <input type="checkbox" name="fairway-driver" id="">
+                <label for="fairway-driver">Fairway Driver</label>
+
+                <input type="checkbox" name="midrange" id="">
+                <label for="midrange">midrange</label>
+
+                <input type="checkbox" name="putter" id="">
+                <label for="putter">putter</label>
+            </div>
+            <br>
+
+            <h3>Disc Brand</h3>
+            <select name="brand" id="">
+                <option value="">--choose brand--</option>
+                <option value="innova">innova</option>
+                <option value="discmania">discmania</option>
+                <option value="discraft">discraft</option>
+                <option value="dynamic-discs">dynamic discs</option>
+            </select>
+            <br><br>
+            <div>
+                <!--edit glide,turn,fade numbers-->
+                <h3>flight numbers</h3>
+                <p>speed</p>
+                <select name="speed" id="">
+                    <option value="">--choose speed--</option>
+                    <option value="12-10">12-10</option>
+                    <option value="9-7">9-7</option>
+                    <option value="6-4">6-4</option>
+                    <option value="3-1">3-1</option>
+                </select>
+
+                <p>glide</p>
+                <select name="glide" id="">
+                    <option value="">--choose speed--</option>
+                    <option value="12-10">12-10</option>
+                    <option value="9-7">9-7</option>
+                    <option value="6-4">6-4</option>
+                    <option value="3-1">3-1</option>
+                </select>
+
+                <p>turn</p>
+                <select name="turn" id="">
+                    <option value="">--choose speed--</option>
+                    <option value="12-10">12-10</option>
+                    <option value="9-7">9-7</option>
+                    <option value="6-4">6-4</option>
+                    <option value="3-1">3-1</option>
+                </select>
+
+                <p>fade</p>
+                <select name="fade" id="">
+                    <option value="">--choose speed--</option>
+                    <option value="12-10">12-10</option>
+                    <option value="9-7">9-7</option>
+                    <option value="6-4">6-4</option>
+                    <option value="3-1">3-1</option>
+                </select>
+
+                <br>
+                <div>
+                    <h3>Plastic</h3>
+                    <select name="plastic" id="">
+                        <option value="">--choose plastic--</option>
+                        <option value="champ">champion</option>
+                        <option value="star">star</option>
+                        <option value="halo">halo</option>
+                        <option value="orbit">orbit</option>
+                    </select>
+                </div>
+
+                <div>
+                    <h3>Disc Weight</h3>
+                    <div>
+                        <input type="checkbox" name="max" id="">
+                        <label for="max">173-175 grams</label>
+
+                        <input type="checkbox" name="mid" id="">
+                        <label for="max">170-172 grams</label>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="checkbox" name="mid-lo" id="">
+                        <label for="max">165-169 grams</label>
+
+                        <input type="checkbox" name="min" id="">
+                        <label for="max">160-164 grams</label>
+                    </div>
+                    <br><br> <button>Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="content">
+                <h3 class="footer-menu">navigation</h3>
+                <ul>
+                    <a href="index.html">
+                        <li>home</li>
+                    </a>
+                    <a href="search.html">
+                        <li>search</li>
+                    </a>
+                    <a href="login.html">
+                        <li>login</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="content">
+                <h3 class="footer-menu">social</h3>
+                <ul>
+                    <li>instagram</li>
+                    <li>x</li>
+
+                </ul>
+            </div>
+            <div class="content">
+                <h3 class="footer-menu">about</h3>
+                <ul>
+                    <li>matt macari</li>
+                    <li>matthew marcotullio</li>
+                    <li>lily yassemi</li>
+                    <li>dylan lucas</li>
+                    <li>alex georgopolis</li>
+                    <li>katherine lopez</li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
+
+
+<!--
+<p>glide</p>
+<label for="12">12-10</label>
+<input type="radio" name="12" id="">
+
+<label for="9-7">9-7</label>
+<input type="radio" name="12" id="">
+
+<label for="6-4">6-4</label>
+<input type="radio" name="12" id="">
+
+<label for="3-1">3-1</label>
+<input type="radio" name="12" id="">
+-->

@@ -1,0 +1,7 @@
+display: inline-block;
+margin: 1.3em 1em 1em 1em;
+
+	account_circle	&#xe853;
+
+	    background-color: #edede9;
+    color: #d5bdaf;
