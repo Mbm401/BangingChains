@@ -1,0 +1,170 @@
+
+query 1
+========================
+
+
+Username        Reward Points Email                                                                                     
+--------------- ------------- --------------------                                                                      
+neo                      1244 neo@1.net                                                                                 
+                                                                                                                        
+artVandelay              3000 yankeelover@aol.com                                                                       
+                                                                                                                        
+datGirlTrin              5678 trinity@1.net                                                                             
+                                                                                                                        
+mcBeast                  9000 paulb@gmail.com                                                                           
+                                                                                                                        
+sleeveMcD               12000 smcd@hotmail.com                                                                          
+                                                                                                                        
+datCatCrooks          1000000 meow@hogwarts.edu                                                                         
+                                                                                                                        
+
+query 2
+========================
+
+
+Name on Card              Expiration  Email                                                                             
+------------------------- ----------- --------------------                                                              
+Trinity Anderson          01-MAR-24   trinity@1.net                                                                     
+Paul McBeth               01-APR-24   paulb@gmail.com                                                                   
+George Costanza           01-JUN-81   yankeelover@aol.com                                                               
+
+query 3
+=========================
+
+
+ORDER Name                                                                              DISC_NAME                       
+----- --------------------------------------------------------------------------------- ---------------                 
+11111 Sleeve McDichael                                                                  HumDinger                       
+22222 Hermione Granger                                                                  Roc                             
+88888 Hermione Granger                                                                  Cloud Breaker                   
+33333 Anatoli Smorin                                                                    Toro                            
+99999 Anatoli Smorin                                                                    P2                              
+44444 George Costanza                                                                   Buzz                            
+10101 George Costanza                                                                   Truth                           
+55555 Neo Anderson                                                                      Luna                            
+77777 Trinity Norte                                                                     Destroyer                       
+77777 Trinity Norte                                                                     Felon                           
+10111 Trinity Norte                                                                     Destroyer                       
+12345 Paul McBeth                                                                       FD3                             
+66666 Crookshanks Granger                                                               FD3                             
+13356 Tyler Durden                                                                      Luna                            
+14580 Ferris Bueler                                                                     Truth                           
+
+query 4
+=========================
+
+
+Username        ORDER SHIPMENT_S ORDER_STAT                                                                             
+--------------- ----- ---------- ----------                                                                             
+mudblood3       22222 PACK       PENDING                                                                                
+                                                                                                                        
+datCatCrooks    66666 PICK       PENDING                                                                                
+                                                                                                                        
+soapstud        13356 PICK       PENDING                                                                                
+                                                                                                                        
+
+query 5
+=========================
+
+
+Name            Brand           DISC_COLOR      Type                                                                    
+--------------- --------------- --------------- ---------------                                                         
+Flight Numbers                                                                                                          
+------------------------------------------------------------------------------------------------------------------------
+Plastic              Price                                                                                              
+--------------- ----------                                                                                              
+Destroyer       Innova          yellow          driver                                                                  
+speed: 12 glide: 5 turn: -1 fade: 3                                                                                     
+halo                 23.99                                                                                              
+                                                                                                                        
+Cloud Breaker   discMania       yellow          driver                                                                  
+speed: 12 glide: 5 turn: -1 fade: 3                                                                                     
+horizon              27.99                                                                                              
+                                                                                                                        
+HumDinger       BCD             gold            driver                                                                  
+speed: 13 glide: 5 turn: -2 fade: 3                                                                                     
+gold-flake         9999.99                                                                                              
+                                                                                                                        
+
+query 6
+=========================
+
+
+Name            Brand           DISC_COLOR      Type                                                                    
+--------------- --------------- --------------- ---------------                                                         
+Flight Numbers                                                                                                          
+------------------------------------------------------------------------------------------------------------------------
+Plastic              Price                                                                                              
+--------------- ----------                                                                                              
+HumDinger       BCD             gold            driver                                                                  
+speed: 13 glide: 5 turn: -2 fade: 3                                                                                     
+gold-flake         9999.99                                                                                              
+                                                                                                                        
+
+query 7
+=========================
+
+
+Disc Name        Brand         Disc Color Disc Type          Flight Numbers                         Plastic             
+---------------- ------------- ---------- ------------------ -------------------------------------- ------------        
+        Price                                                                                                           
+-------------                                                                                                           
+Felon            dynamicDiscs  pink       fairway driver     speed: 9 glide: 4 turn: 1 fade: 4      lucid               
+       $31.99                                                                                                           
+                                                                                                                        
+Cloud Breaker    discMania     yellow     driver             speed: 12 glide: 5 turn: -1 fade: 3    horizon             
+       $27.99                                                                                                           
+                                                                                                                        
+Toro             Innova        purple     fairway driver     speed: 4 glide: 2 turn: 0 fade: 4      star                
+       $26.99                                                                                                           
+                                                                                                                        
+FD3              discMania     blue       fairway driver     speed: 7 glide: 6 turn: 0 fade: 1      metal-flake         
+       $24.99                                                                                                           
+                                                                                                                        
+Destroyer        Innova        yellow     driver             speed: 12 glide: 5 turn: -1 fade: 3    halo                
+       $23.99                                                                                                           
+                                                                                                                        
+Roc              Innova        green      mid-range          speed: 5 glide: 4 turn: 0 fade: 3      champion            
+       $21.99                                                                                                           
+                                                                                                                        
+Buzz             discraft      red        mid-range          speed: 5 glide: 4 turn: -1 fade: 1     esp                 
+       $19.99                                                                                                           
+                                                                                                                        
+Truth            dynamicDiscs  tie-dye    mid-range          speed: 5 glide: 5 turn: -1 fade: 1     lucid               
+       $18.99                                                                                                           
+                                                                                                                        
+Luna             discraft      white      putter             speed: 3 glide: 3 turn: 0 fade: 3      big z               
+       $15.99                                                                                                           
+                                                                                                                        
+P2               discMania     orange     putter             speed: 2 glide: 3 turn: 0 fade: 1      d-line              
+       $13.99                                                                                                           
+                                                                                                                        
+
+query 8
+==========================
+
+
+FNAME                                    LNAME                                    ADMIN_PRIVILEGES                      
+---------------------------------------- ---------------------------------------- ----------------                      
+Matthew                                  Marcotullio                                             5                      
+Matt                                     Macari                                                  4                      
+Dylan                                    Lucas                                                   5                      
+Katherine                                Lopez                                                   3                      
+Bernie                                   Madoff                                                  4                      
+
+query 9
+===============================
+
+
+BRAND_NAME       MAX_PRICE                                                                                              
+--------------- ----------                                                                                              
+BCD                9999.99                                                                                              
+Innova               26.99                                                                                              
+dynamicDiscs         31.99                                                                                              
+discMania            27.99                                                                                              
+discraft             19.99                                                                                              
+SQL> 
+SQL> 
+SQL> 
+SQL> 
+SQL> start 325report1.sql

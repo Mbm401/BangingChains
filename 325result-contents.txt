@@ -1,0 +1,207 @@
+
+SELECT FROM disc
+=========================================
+
+SKU       Disc Name     Brand        Color   Type            Speed #  Glide #  Turn #  Fade # Plastic                   
+--------- ------------- ------------ ------- -------------- -------- -------- ------- ------- -----------               
+987654321 Destroyer     Innova       yellow  driver               12        5      -1       3 halo                      
+123456789 Roc           Innova       green   mid-range             5        4       0       3 champion                  
+132456789 Toro          Innova       purple  fairway driver        4        2       0       4 star                      
+142356789 Buzz          discraft     red     mid-range             5        4      -1       1 esp                       
+152346789 Luna          discraft     white   putter                3        3       0       3 big z                     
+162345789 FD3           discMania    blue    fairway driver        7        6       0       1 metal-flake               
+172345689 Cloud Breaker discMania    yellow  driver               12        5      -1       3 horizon                   
+182345679 P2            discMania    orange  putter                2        3       0       1 d-line                    
+192345678 Truth         dynamicDiscs tie-dye mid-range             5        5      -1       1 lucid                     
+124356789 Felon         dynamicDiscs pink    fairway driver        9        4       1       4 lucid                     
+000000001 HumDinger     BCD          gold    driver               13        5      -2       3 gold-flake                
+
+SKU       Disc Name         Price  # Available                                                                          
+--------- ------------- --------- ------------                                                                          
+987654321 Destroyer        $23.99         1000                                                                          
+123456789 Roc              $21.99          850                                                                          
+132456789 Toro             $26.99          975                                                                          
+142356789 Buzz             $19.99          525                                                                          
+152346789 Luna             $15.99          330                                                                          
+162345789 FD3              $24.99          250                                                                          
+172345689 Cloud Breaker    $27.99           30                                                                          
+182345679 P2               $13.99          555                                                                          
+192345678 Truth            $18.99          215                                                                          
+124356789 Felon            $31.99          775                                                                          
+000000001 HumDinger      $9999.99            1                                                                          
+
+SELECT FROM user_info
+=========================================
+
+Email                First Name  Last Name    C A                                                                       
+-------------------- ----------- ------------ - -                                                                       
+matthew@bcd.com      Matthew     Marcotullio  N Y                                                                       
+matt@bcd.com         Matt        Macari       N Y                                                                       
+alex@bcd.com         Alex        Georgopoulos N Y                                                                       
+dylan@bcd.com        Dylan       Lucas        N Y                                                                       
+kato@bcd.com         Katherine   Lopez        N Y                                                                       
+lily@bcd.com         Lily        Yassemi      N Y                                                                       
+smcd@hotmail.com     Sleeve      McDichael    Y N                                                                       
+hermione@gmail.com   Hermione    Granger      Y N                                                                       
+smorluvr@ymail.com   Anatoli     Smorin       Y N                                                                       
+yankeelover@aol.com  George      Costanza     Y N                                                                       
+markymark@aol.com    Mark        Wahlberg     N Y                                                                       
+jsnow@thewall.com    Jon         Snow         N Y                                                                       
+neo@1.net            Neo         Anderson     Y N                                                                       
+trinity@1.net        Trinity     Norte        Y N                                                                       
+paulb@gmail.com      Paul        McBeth       Y N                                                                       
+meow@hogwarts.edu    Crookshanks Granger      Y Y                                                                       
+kingslayer@yahoo.com Jamie       Lannister    Y N                                                                       
+TD@mayhem.com        Tyler       Durden       Y N                                                                       
+bernie@ymail.com     Bernie      Madoff       N Y                                                                       
+ferrisB@hotmail.com  Ferris      Bueler       Y N                                                                       
+
+SELECT FROM users
+=========================================
+
+USERNAME        PASSWORD EMAIL                                                                                          
+--------------- -------- --------------------                                                                           
+matt            EA13D17  matthew@bcd.com                                                                                
+dischead        17EDA13  matt@bcd.com                                                                                   
+alexBC          73ED121  alex@bcd.com                                                                                   
+dylpickle       8123ED7  dylan@bcd.com                                                                                  
+kato_123        ABC123   kato@bcd.com                                                                                   
+stargazer       137DEFZ  lily@bcd.com                                                                                   
+sleeveMcD       0000001  smcd@hotmail.com                                                                               
+mudblood3       17FDEAZ  hermione@gmail.com                                                                             
+gimmesmor       E32178F  smorluvr@ymail.com                                                                             
+artVandelay     77113FF  yankeelover@aol.com                                                                            
+markyMarketer   0341112  markymark@aol.com                                                                              
+kingOfTheNorth  7861342  jsnow@thewall.com                                                                              
+neo             1100111  neo@1.net                                                                                      
+datGirlTrin     0011000  trinity@1.net                                                                                  
+mcBeast         2198371  paulb@gmail.com                                                                                
+datCatCrooks    2819731  meow@hogwarts.edu                                                                              
+kingslayer      2111930  kingslayer@yahoo.com                                                                           
+soapstud        1031142  TD@mayhem.com                                                                                  
+bigPonzi        1234217  bernie@ymail.com                                                                               
+captainHooky    1211211  ferrisB@hotmail.com                                                                            
+
+SELECT FROM admin
+=========================================
+
+USERNAME        ROLE             PRIVILEGES                                                                             
+--------------- ---------------- ----------                                                                             
+matt            CIO                       5                                                                             
+dischead        CFO                       4                                                                             
+alexBC          Intern                    1                                                                             
+dylpickle       CEO                       5                                                                             
+kato_123        Manager                   3                                                                             
+stargazer       Customer Service          2                                                                             
+markyMarketer   Marketing                 2                                                                             
+datCatCrooks    Customer Service          2                                                                             
+kingOfTheNorth  Marketing                 2                                                                             
+bigPonzi        Accounting                4                                                                             
+
+SELECT FROM customer
+=========================================
+
+USERNAME         REWARD_PTS CARD_NUM         B_ID S_ID                                                                  
+--------------- ----------- ---------------- ---- ----                                                                  
+sleeveMcD             12000 5102904959272293 0001 0001                                                                  
+mudblood3                 5 2513086873784457 0002 0002                                                                  
+gimmesmor               500 9816959060758170 0003 0003                                                                  
+artVandelay            3000 3512715725494118 0004 0004                                                                  
+neo                    1244 6827199756090740 0010 0010                                                                  
+datGirlTrin            5678 5744504841866580 1000 1000                                                                  
+mcBeast                9000 0762440187214321 0200 0200                                                                  
+datCatCrooks        1000000 9041328658969097 0020 0030                                                                  
+kingslayer                8 6893430084500723 3000 3000                                                                  
+soapstud                800 9137190797109150 1234 4321                                                                  
+captainHooky            420 2222504190245069 0300 0300                                                                  
+
+SELECT FROM customer_card
+=========================================
+
+USERNAME        CARD_NUM         EXP_DATE  NAME                  CVV                                                    
+--------------- ---------------- --------- ------------------- -----                                                    
+sleeveMcD       5102904959272293 01-AUG-26 Sleeve McDichael      420                                                    
+mudblood3       2513086873784457 01-NOV-27 Hermione Granger      135                                                    
+gimmesmor       9816959060758170 01-JAN-25 Anatoli Smorin        422                                                    
+artVandelay     3512715725494118 01-JUN-81 George Costanza       157                                                    
+neo             6827199756090740 01-FEB-29 Neo Anderson          102                                                    
+datGirlTrin     5744504841866580 01-MAR-24 Trinity Anderson      116                                                    
+mcBeast         0762440187214321 01-APR-24 Paul McBeth           611                                                    
+datCatCrooks    9041328658969097 01-MAY-25 Crookshanks Granger   711                                                    
+kingslayer      6893430084500723 01-JUN-26 Jamie Lannister       204                                                    
+soapstud        9137190797109150 01-AUG-25 Tyler Durden          402                                                    
+captainHooky    2222504190245069 01-OCT-27 Ferris Bueler         666                                                    
+
+SELECT FROM customer_billing_address
+=========================================
+
+USERNAME        B_ID ST CITY                 STREET                 ZIPCODE APT #                                       
+--------------- ---- -- -------------------- ---------------------- ------- -----                                       
+sleeveMcD       0001 WV Moundsville          1 Base Lane            26041      65                                       
+mudblood3       0002 NY Hogwarts             18 Crookshanks Road    62442     934                                       
+gimmesmor       0003 TX Ding Dong            352 Blue Cedar Road    76542                                               
+artVandelay     0004 NY New York             129 West 81st Street   10024     411                                       
+neo             0010 MA Trix                 001 Nebuchadnezzar Ave 01010                                               
+datGirlTrin     1000 MA Trix                 010 Nebuchadnezzar Ave 01010                                               
+mcBeast         0200 WV Birdieville          19 Under Par Ave       97614      45                                       
+datCatCrooks    0020 NY Hogwarts             18 Crookshanks Road    62442     934                                       
+kingslayer      3000 VA Kings Landing        1 Castle Drive         81112                                               
+soapstud        1234 NY New York             15 Manhattan Lane      11456      67                                       
+captainHooky    0300 IL Chicago              370 Beech Street       92210                                               
+
+SELECT FROM customer_shipping_address
+=========================================
+
+USERNAME        S_ID ST CITY                 STREET                 ZIPCODE APT #                                       
+--------------- ---- -- -------------------- ---------------------- ------- -----                                       
+sleeveMcD       0001 WV Moundsville          1 Base Lane            26041      65                                       
+mudblood3       0002 NY Hogwarts             18 Crookshanks Road    62442     934                                       
+gimmesmor       0003 TX Ding Dong            352 Blue Cedar Road    76542                                               
+artVandelay     0004 NY New York             129 West 81st Street   10024     411                                       
+neo             0010 MA Trix                 001 Nebuchadnezzar Ave 01010                                               
+datGirlTrin     1000 MA Trix                 010 Nebuchadnezzar Ave 01010                                               
+mcBeast         0200 WV Birdieville          19 Under Par Ave       97614      45                                       
+datCatCrooks    0030 NY Hogwarts             4 McGonagall Lane      62442     777                                       
+kingslayer      3000 VA Kings Landing        1 Castle Drive         81112                                               
+soapstud        4321 NY New York             234 56th Street        11456     456                                       
+captainHooky    0300 IL Chicago              370 Beech Street       92210                                               
+
+SELECT FROM orders
+=========================================
+
+ORDER SHIPMENT STATUS ORDER STATUS DATE PLACED DATE DELIVERED USERNAME                                                  
+----- --------------- ------------ ----------- -------------- ---------------                                           
+11111 PICK            PENDING      29-NOV-23                  sleeveMcD                                                 
+22222 PACK            PENDING      01-DEC-23                  mudblood3                                                 
+33333 SHIP            SHIPPED      25-NOV-23                  gimmesmor                                                 
+44444 SHIP            INVOICE      20-NOV-23   28-NOV-23      artVandelay                                               
+55555 PACK            PENDING      28-NOV-23                  neo                                                       
+66666 PICK            PENDING      02-DEC-23                  datCatCrooks                                              
+77777 SHIP            SHIPPED      01-NOV-23                  datGirlTrin                                               
+88888 SHIP            RETURNED     30-OCT-23   01-NOV-23      mudblood3                                                 
+99999 SHIP            INVOICE      07-NOV-23   15-NOV-23      gimmesmor                                                 
+10101 SHIP            RETURNED     08-NOV-23   16-NOV-23      artVandelay                                               
+10111 PACK            PENDING      01-NOV-23                  datGirlTrin                                               
+12345 SHIP            INVOICE      02-JUL-23   11-JUL-23      mcBeast                                                   
+13356 PICK            PENDING      04-DEC-23                  soapstud                                                  
+14580 SHIP            INVOICE      19-AUG-19   26-AUG-19      captainHooky                                              
+
+SELECT FROM order_of_disc
+=========================================
+
+ORDER SKU                                                                                                               
+----- ---------                                                                                                         
+10101 192345678                                                                                                         
+10111 987654321                                                                                                         
+11111 000000001                                                                                                         
+12345 162345789                                                                                                         
+13356 152346789                                                                                                         
+14580 192345678                                                                                                         
+22222 123456789                                                                                                         
+33333 132456789                                                                                                         
+44444 142356789                                                                                                         
+55555 152346789                                                                                                         
+66666 162345789                                                                                                         
+77777 987654321                                                                                                         
+88888 172345689                                                                                                         
+99999 182345679                                                                                                         

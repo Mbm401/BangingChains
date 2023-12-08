@@ -1,0 +1,22 @@
+To see which customers ordered which discs, we select the order number, customer full name,
+and disc name(s) for all orders.
+
+      BANGING CHAINS - QUERY REPORT 2     
+Order # Customer Name       Disc Name     
+------- ------------------- ------------- 
+10101   George Costanza     Truth         
+10111   Trinity Norte       Destroyer     
+11111   Sleeve McDichael    HumDinger     
+12345   Paul McBeth         FD3           
+13356   Tyler Durden        Luna          
+14580   Ferris Bueler       Truth         
+22222   Hermione Granger    Roc           
+33333   Anatoli Smorin      Toro          
+44444   George Costanza     Buzz          
+55555   Neo Anderson        Luna          
+66666   Crookshanks Granger FD3           
+77777   Trinity Norte       Destroyer     
+        Trinity Norte       Felon         
+88888   Hermione Granger    Cloud Breaker 
+99999   Anatoli Smorin      P2            
+              - REPORT END -              

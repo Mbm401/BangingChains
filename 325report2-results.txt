@@ -1,0 +1,9 @@
+To see which customers ordered which discs, we select the order number, customer full name,
+and disc name(s) for all orders
+group by orders.order_num, customer_name, disc.disc_name
+                           *
+ERROR at line 7:
+ORA-00904: "CUSTOMER_NAME": invalid identifier 
+
+
+SQL> start 325report2.sql

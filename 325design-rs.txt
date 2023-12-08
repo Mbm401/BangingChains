@@ -1,0 +1,33 @@
+﻿325 Project Model Milestone 2: RELATION STRUCTURES
+Group: Banging Chains
+Names: Lily Yassemi, Matt Macari, Dylan Lucas, Matthew Marcotullio, Alex Georgopoulos, Katherine Lopez
+Last Modified: 12-04-2023
+
+User(USERNAME, password_hash, email)
+	foreign_key(email) references User_info(email)
+
+User_info(EMAIL, user_fname, user_lname, is_customer, is_admin)
+
+Customer(USERNAME, reward_points, card_num, b_address_id, s_address_id)
+foreign key (USERNAME) references user
+
+Customer_card(USERNAME, CARD_NUM, exp_date, name_on_card, cvv_num) 
+Foreign key (username) references customer
+
+Customer_billing_address(USERNAME, B_ADDRESS_ID, state_abr, city, street_address, zipcode, apt_num)
+Foreign key(username) references customer
+
+Customer_shipping_address(USERNAME, S_ADDRESS_ID, state_abr, city, street_address, zipcode, apt_num)
+Foreign key(username) references customer
+
+Admin(USERNAME, admin_role, admin_privileges) 
+	foreign key (USERNAME) references user
+
+Disc(SKU, disc_name, brand_name, disc_color, disc_type, disc_speed_num, disc_glide_num, disc_turn_num, disc_fade_num, disc_plastic_type, disc_price, disc_quant_avail)
+
+Order(ORDER_NUM, shipment_status, date_placed, date_delivered, username) 
+	foreign key (username) references user
+
+Order_of_Disc(SKU, ORDER_NUM)
+	foreign key (sku) references disc
+	foreign key (order_num) references order
